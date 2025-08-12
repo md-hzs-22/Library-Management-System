@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8e8d8"/>
+      <stop offset="1" stop-color="#e3d6c6"/>
+    </linearGradient>
+    <pattern id="books" width="120" height="200" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="120" height="200" fill="#f4ede4"/>
+      <rect x="10" y="30" width="20" height="140" fill="#bfae9c"/>
+      <rect x="40" y="50" width="15" height="120" fill="#a67c52"/>
+      <rect x="65" y="40" width="18" height="130" fill="#d9b382"/>
+      <rect x="90" y="60" width="12" height="110" fill="#c9a66b"/>
+      <rect x="20" y="170" width="80" height="10" fill="#bfae9c"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <rect width="100%" height="100%" fill="url(#books)" opacity="0.18"/>
+  <text x="50%" y="95%" font-size="28" text-anchor="middle" fill="#bfae9c" opacity="0.4">Library Management System</text>
+</svg>
